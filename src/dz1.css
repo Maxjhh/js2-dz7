@@ -1,0 +1,9 @@
+.dz1_1 ul {
+	list-style-type: disc;
+}
+.dz1_1 a, .dz1_2 a {
+	text-decoration: none;
+}
+.pal a {
+	font-size: 50px;
+}

@@ -1,0 +1,113 @@
+.dz6 h1 {
+	text-align: center;
+}
+.prod, .cart, .amount, .prodcap, .cartcap, .prodhead {
+	width: 700px;
+	margin: 30px auto 30px;
+}
+.prodname {
+	float: left;
+}
+.price, .amount2, .am3, .am2 {
+	float: right;
+}
+.buybut, .delbut {
+	display: inline-block;
+	width: 70px;
+	float: right;
+	margin-left: 50px;
+	background-color: grey;
+	color: white;
+	cursor: pointer;
+	text-align: center;
+}
+.delbut {
+	background-color: #EA464C;
+}
+.delbut:hover {
+	background-color: #F2696F;
+}
+.quaninp {
+	width: 50px;
+	position: absolute;
+	left: 200px;
+}
+.quanbut {
+	width: 50px;
+	position: absolute;
+	left: 255px;
+}
+.buybut:hover {
+	background-color: darkgrey;
+}
+.prodid {
+	float: left;
+	margin-right: 10px;
+}
+.prodid:after {
+	content: ": ";
+}
+.product {
+	clear: both;
+	height: 20px;
+	border-bottom: 1px dotted black;
+	position: relative;
+}
+.amount {
+	height: 20px;
+}
+.quan {
+	position: absolute;
+	left: 200px;
+	display: inline-block;
+}
+.prodhead > span:nth-child(1){
+	margin-right: 15px;
+}
+.prodhead > span:nth-child(2){
+	margin-right: 110px;
+}
+.prodhead > span:nth-child(3){
+	margin-right: 250px;
+}
+.prodhead > span:nth-child(4){
+	margin-right: 70px;
+}
+.cartact {
+	background-color: lightgrey;
+}
+.prodsl {
+	height: 200px;
+}
+.prodsl .product {
+	width: 200px;
+	height: 150px;
+	display: inline-block;
+	background-color: darkgrey;
+	margin: 10px;
+	border: none;
+	font-size: 30px;
+	float: none;
+	cursor: pointer;
+}
+.prodsl .product div {
+	display: block;
+	float: none;
+	text-align: center;
+}
+.prodsl .product .buybut {
+	margin: 0 auto 0;
+	width: 100%;
+}
+.slick-prev, .slick-next {
+	background: black;
+	border-radius: 50%;
+}
+.slick-prev:hover, .slick-next:hover {
+	background: black;
+}
+.datecd {
+	display: block;
+	width: 300px;
+	margin: 0 auto;
+}

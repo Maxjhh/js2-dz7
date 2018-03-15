@@ -1,0 +1,54 @@
+.tabs {
+	height: 300px;
+}
+.tabcap {
+	font-size: 0;
+	height: 50px;
+	z-index: 10;
+}
+.tabcap li {
+	display: inline-block;
+	background-color: lightblue;
+	width: 100px;
+	height: 30px;
+	margin: 20px -1px 0;
+	text-align: center;
+	line-height: 30px;
+	border: 2px solid blue;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	color: darkblue;
+	font-size: 15px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	vertical-align: bottom;
+}
+.tabcap li:not(.active){
+	cursor: pointer;
+	transition: all 0.5s;
+}
+.tabcap li:not(.active):hover {
+	background-color: white;
+}
+.tabcap .active {
+	background-color: white;
+	border-bottom: 2px solid white;
+	margin-top: 0;
+}
+.tabcap li:first-child {
+	width: 150px;
+	height: 50px;
+}
+.tabcont {
+	overflow: hidden;
+	height: 0;
+	width: 700px;
+	border: 0 solid blue;
+}
+.tabcont:nth-child(2){
+	height: 200px;
+	border-width: 2px;
+}
+#autocomplete {
+	width: 200px;
+}
